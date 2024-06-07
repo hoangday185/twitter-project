@@ -1,0 +1,7 @@
+version: '3'
+services:
+  twitter:
+    image: hoangday/twitter
+    ports:
+      - '3000:3000'
+    volumes: -'~/Documents/HoangDay/twitter:/app/uploads'
